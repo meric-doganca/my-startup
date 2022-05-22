@@ -192,21 +192,21 @@ section {
   border-radius: 2rem;
 }
 
-.menu-heading {
+.offers-heading {
   text-align: center;
 }
 
-.menu-heading span {
+.offers-heading span {
   color: var(--main-color);
   font-weight: 600;
   font-size: 3rem;
 }
 
-.menu-heading h2 {
+.offers-heading h2 {
   font-size: var(--h2-font);
 }
 
-.menu-container {
+.offers-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, auto));
   grid-gap: 1.5rem;
@@ -224,6 +224,8 @@ section {
   background: #a6a6a6;
   border-radius: 2rem;
   padding: 0 0 1rem;
+
+  box-shadow: rgb(120, 117, 117) 0px 4px 12px;
 }
 
 .box-img {
